@@ -4,9 +4,9 @@ export function AppHeader() {
       <p className="ux-eyebrow">
         AI APPLICATION DEVELOPMENT
       </p>
-      <h1>AI Vision Application</h1>
+      <h1>Animal Detection AI</h1>
       <p className="ux-header-description">
-        Object Detection with AI
+        ระบบตรวจจับและจำแนกประเภทสัตว์ด้วย AI
       </p>
     </header>
   );
