@@ -1,12 +1,9 @@
 "use client";
 import { useState } from "react";
 export function ApiStatus() {
-    const [status, setStatus] =
-        useState("Not checked");
-    const [loading, setLoading] =
-        useState(false);
-    const [error, setError] =
-        useState("");
+    const [status, setStatus] = useState("Not checked");
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState("");
     async function checkApi() {
         try {
             setLoading(true);

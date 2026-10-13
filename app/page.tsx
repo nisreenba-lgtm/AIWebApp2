@@ -16,8 +16,8 @@ export default function Home() {
           title="Animal Detection"
           description="ระบบตรวจจับและจำแนกประเภทสัตว์ด้วย AI"
         /><FeatureCard
-          title="AI Chat"
-          description="สนทนากับ Generative AI"
+          title="AI Animal"
+          description="ตรวจจับ"
         />
       </div>
       <section className="sp-home-card">
